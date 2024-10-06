@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="420dp"
+        android:layout_height="77dp"
+        android:background="@color/blue"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:layout_width="46dp"
+        android:layout_height="44dp"
+        android:background="@drawable/logo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <ImageButton
+        android:layout_width="38dp"
+        android:layout_height="42dp"
+        android:background="@drawable/img"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="345dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <ImageButton
+        android:layout_width="38dp"
+        android:layout_height="42dp"
+        android:background="@drawable/img_3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+    <ImageButton
+        android:layout_width="46dp"
+        android:layout_height="36dp"
+        android:background="@drawable/img_1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="679dp" />
+
+    <ImageButton
+        android:layout_width="38dp"
+        android:layout_height="42dp"
+        android:background="@drawable/img_2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="673dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

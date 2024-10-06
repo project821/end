@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="415dp"
+        android:layout_height="233dp"
+        android:background="@drawable/bk"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-5dp" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="64dp"
+        android:fontFamily="serif"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <EditText
+        android:layout_width="337dp"
+        android:layout_height="94dp"
+        android:text="Email"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="345dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_width="333dp"
+        android:layout_height="67dp"
+        android:text="Password"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="157dp"
+        android:layout_height="48dp"
+        android:text="Login"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="583dp" />
+
+    <TextView
+        android:layout_width="429dp"
+        android:layout_height="55dp"
+        android:background="@color/blue"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="676dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Have an account? Register"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="645dp"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="524dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

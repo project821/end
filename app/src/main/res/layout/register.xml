@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="335dp"
+        android:layout_height="53dp"
+        android:text="First Name"
+        tools:ignore="DuplicateClickableBoundsCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <TextView
+        android:layout_width="421dp"
+        android:layout_height="90dp"
+        android:background="@color/blue"
+        tools:layout_editor_absoluteX="-11dp"
+        tools:layout_editor_absoluteY="-13dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="421dp"
+        android:layout_height="90dp"
+        android:background="@color/blue"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="643dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="64dp"
+        android:fontFamily="serif"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@color/blue"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="53dp"
+        android:text="First Name"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="172dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="53dp"
+        android:text="Last Name"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="237dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="53dp"
+        android:text="Password"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="308dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="53dp"
+        android:text="Password"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="380dp"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkedTextView"
+        android:layout_width="307dp"
+        android:layout_height="51dp"
+        android:text="I Agree with privacy and policy"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="433dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="162dp"
+        android:layout_height="64dp"
+        android:text="Register"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="517dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Log in"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="599dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
